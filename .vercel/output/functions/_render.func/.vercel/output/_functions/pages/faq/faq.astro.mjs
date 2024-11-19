@@ -1,0 +1,103 @@
+/* empty css                                    */
+import { a as createComponent, r as renderTemplate, m as maybeRenderHead, b as renderComponent } from '../../chunks/astro/server_Br1wbYCy.mjs';
+import 'kleur/colors';
+import { $ as $$BaseLayout } from '../../chunks/BaseLayout_C3wLbWyD.mjs';
+import { $ as $$Navigation, a as $$Footer } from '../../chunks/Footer_BfcYL_pV.mjs';
+import 'clsx';
+export { renderers } from '../../renderers.mjs';
+
+const $$Faq$1 = createComponent(($$result, $$props, $$slots) => {
+  return renderTemplate`${maybeRenderHead()}<section aria-labelledby="faq-title" id="faq"> <div class="mx-auto w-full lg:px-24 max-w-7xl md:px-12 items-center px-8 py-24 scroll-mt-12"> <div> <div class="max-w-2xl"> <p class="text-black font-extrabold lg:text-6xl text-5xl tracking-tight mb-4">
+Frequently Asked Questions
+</p> <p class="text-black font-extrabold lg:text-5xl text-4xl tracking-tight">
+General Questions
+</p> <p class="text-gray-500 lg:text-xl max-w-2xl mt-4 mx-auto text-base">
+Because we want to make it easier for you
+</p> </div> <div class="mt-12 space-y-12 divide-y-2"> <div class="grid grid-cols-1 gap-4 pt-4 lg:grid-cols-3 lg:pt-12"> <div class="flex flex-col flex-shrink-0 mb-6 lg:pr-12 md:mb-0"> <span class="text-lg font-semibold leading-6 text-black font-display tracking-tight">
+Do I need to pay deposit to book?
+</span> </div> <div class="lg:col-span-2"> <p class="text-gray-500 text-sm">
+Yes, a deposit secures your moving date.
+</p> </div> </div> <div class="grid grid-cols-1 gap-4 pt-4 lg:grid-cols-3 lg:pt-12"> <div class="flex flex-col flex-shrink-0 mb-6 lg:pr-12 md:mb-0"> <span class="text-lg font-semibold leading-6 text-black font-display tracking-tight">
+My move date has changed. What should I do?
+</span> </div> <div class="space-y-4 lg:col-span-2"> <p class="text-gray-500 text-sm">
+If your move date has changed, not to worry.  We are happy to accommodate with a rescheduling.  We also keep the moving deposit for 2 scheduling.  From your 3rd scheduling, the moving deposit no longer goes towards the total bill due at the end of your move, and you will need to pay a new deposit. We require a 24 hour notice.
+</p> </div> </div> <div class="grid grid-cols-1 gap-4 pt-4 lg:grid-cols-3 lg:pt-12"> <div class="flex flex-col flex-shrink-0 mb-6 lg:pr-12 md:mb-0"> <span class="text-lg font-semibold leading-6 text-black font-display tracking-tight">
+How are items insured?
+</span> </div> <div class="lg:col-span-2"> <p class="text-gray-500 text-sm">
+Items packed by the Wrap-it Moving team are insured under Article 10 of Schedule 4, Specified Conditions of Carriage — Household Goods in the
+<a href="https://www.bclaws.gov.bc.ca/civix/document/id/crbc/crbc/26_58_multi" class="text-blue-500 underline hover:text-blue-700" target="_blank" rel="noopener noreferrer">
+Motor Vehicle Act Regulations of British Columbia
+</a>. 
+              This insurance provides minimal coverage at no additional cost. The maximum coverage is $1.32 per kilogram per article. For example, if your dresser weighing 40kg is damaged during the move, you would receive 40kg x $1.32 = $52.80 compensation.
+              You can trust our experienced and dedicated Wrap-it Moving team to make every effort to make sure your items will be transported safely, with extra care. However, you are more than welcome to purchase additional coverage insurance if you wish.
+</p> <p class="text-gray-500 text-sm mt-6">
+For full-value protection or special item coverage, please check out insurance brokers near you
+              for something that fits your needs and your budget, and purchase it before the moving day. <strong>All claims
+              have to be made within 24 hours from the completion of the move.</strong> </p> </div> </div> <div class="grid grid-cols-1 gap-4 pt-4 lg:grid-cols-3 lg:pt-12"> <div class="flex flex-col flex-shrink-0 mb-6 lg:pr-12 md:mb-0"> <span class="text-lg font-semibold leading-6 text-black font-display tracking-tight">
+How many hours does it take to move?
+</span> </div> <div class="lg:col-span-2"> <p class="text-gray-500 text-sm">
+Moving times vary based on the size of a home, number of rooms and items.  The average time for a move is:
+</p><p class="text-gray-500 text-sm">
+Studio/1 Bedroom (600sqft) 2-3hrs
+</p> <p class="text-gray-500 text-sm">
+2 Bedrooms (800sqft) 3-5hrs
+</p> <p class="text-gray-500 text-sm">
+3 Bedrooms (1300sqft) 4-6hrs (2-3 movers)
+</p> <p class="text-gray-500 text-sm">
+4 Bedrooms (1800sqft) 6-7hrs (3-4 movers)
+</p> <p class="text-gray-500 text-sm">
+5 Bedrooms (2000+sqft) 7-9hrs (4-5 movers)
+</p> <p class="text-gray-500 text-sm">
+Other factors such as stairs, extra large or heavy items, distance between our moving truck and the entrance of the building, etc could also impact how long a move can be.
+</p>  </div> </div> <div class="grid grid-cols-1 gap-4 pt-4 lg:grid-cols-3 lg:pt-12"> <div class="flex flex-col flex-shrink-0 mb-6 lg:pr-12 md:mb-0"> <span class="text-lg font-semibold leading-6 text-black font-display tracking-tight">
+Do you move single items?
+</span> </div> <div class="lg:col-span-2"> <p class="text-gray-500 text-sm">
+Yes!  Did you buy a couch, wardrobe or shelving unit from Craigslist or Marketplace but don’t have the truck space to bring it home?  We can help you pick up the item and deliver it to you.
+</p> </div> </div> </div> </div> <br> <br> <div> <div class="max-w-2xl"> <p class="text-black font-extrabold lg:text-5xl text-4xl tracking-tight">
+Payments & Billing
+</p> </div> <div class="mt-12 space-y-12 divide-y-2"> <div class="grid grid-cols-1 gap-4 pt-4 lg:grid-cols-3 lg:pt-12"> <div class="flex flex-col flex-shrink-0 mb-6 lg:pr-12 md:mb-0"> <span class="text-lg font-semibold leading-6 text-black font-display tracking-tight">
+When do I pay for the move or service?
+</span> </div> <div class="lg:col-span-2"> <p class="text-gray-500 text-sm">
+Payment is due when the move or service is complete.  You do not need to pay for any part of the service except for the deposit to secure your move until the move or service is finished.
+</p> </div> </div> <div class="grid grid-cols-1 gap-4 pt-4 lg:grid-cols-3 lg:pt-12"> <div class="flex flex-col flex-shrink-0 mb-6 lg:pr-12 md:mb-0"> <span class="text-lg font-semibold leading-6 text-black font-display tracking-tight">
+Do you charge for overweight items?
+</span> </div> <div class="space-y-4 lg:col-span-2"> <p class="text-gray-500 text-sm">
+Yes, we charge extra fees for items over 100kg or 200lbs, depending on the weight or added difficulty to move the item from the pick-up address to the drop-off address.
+</p> </div> </div> <div class="grid grid-cols-1 gap-4 pt-4 lg:grid-cols-3 lg:pt-12"> <div class="flex flex-col flex-shrink-0 mb-6 lg:pr-12 md:mb-0"> <span class="text-lg font-semibold leading-6 text-black font-display tracking-tight">
+Are there any hidden fees?
+</span> </div> <div class="space-y-4 lg:col-span-2"> <p class="text-gray-500 text-sm">
+No, we don’t have any hidden fees.  The fees will either be charged hourly plus travel time, or at a flat rate, based on the information you provide at booking.  We will tell you about any additional charges before we confirm your booking.
+</p> <p class="text-gray-500 text-sm">
+If you end up having items you didn’t tell us about which may require extra attention such as overweight items, or needing junk removal service, please let the Wrap-it Moving team know before the move begins so we can update you on any extra fee information.
+</p> </div> </div> <div class="grid grid-cols-1 gap-4 pt-4 lg:grid-cols-3 lg:pt-12"> <div class="flex flex-col flex-shrink-0 mb-6 lg:pr-12 md:mb-0"> <span class="text-lg font-semibold leading-6 text-black font-display tracking-tight">
+What forms of payments do you accept?
+</span> </div> <div class="lg:col-span-2"> <p class="text-gray-500 text-sm">
+We accept cash, debit, all major credit cards, and e-transfer. We do not accept cheque.
+</p> </div> </div> <div class="grid grid-cols-1 gap-4 pt-4 lg:grid-cols-3 lg:pt-12"> <div class="flex flex-col flex-shrink-0 mb-6 lg:pr-12 md:mb-0"> <span class="text-lg font-semibold leading-6 text-black font-display tracking-tight">
+Is there a credit card processing fee?
+</span> </div> <div class="lg:col-span-2"> <p class="text-gray-500 text-sm">
+Yes, we charge a 3.5% processing fee for credit card transactions which is a third party point-of-sale company charge.  To avoid this added amount and save money, we recommend you to pay by cash, debit card or e-transfer.
+</p> </div> </div> <div class="grid grid-cols-1 gap-4 pt-4 lg:grid-cols-3 lg:pt-12"> <div class="flex flex-col flex-shrink-0 mb-6 lg:pr-12 md:mb-0"> <span class="text-lg font-semibold leading-6 text-black font-display tracking-tight">
+Should we tip the movers?
+</span> </div> <div class="lg:col-span-2"> <p class="text-gray-500 text-sm">
+If you are satisfied with our service, a tip would be greatly appreciated.  Our dedicated team strives to make your moving day stress-free, going the extra mile with a smile.  Your tip would brighten our team's day, just as they aim to brighten yours with exceptional customer service.
+</p> </div> </div> </div> </div> </div> </section>`;
+}, "C:/Users/Kehan/Documents/GitHub/wrapitmoving-vercel/src/components/infopages/Faq.astro", void 0);
+
+const $$Faq = createComponent(($$result, $$props, $$slots) => {
+  return renderTemplate`${renderComponent($$result, "BaseLayout", $$BaseLayout, {}, { "default": ($$result2) => renderTemplate` ${renderComponent($$result2, "Navigation", $$Navigation, {})} ${renderComponent($$result2, "Faq", $$Faq$1, {})} ${renderComponent($$result2, "Footer", $$Footer, {})} ` })}`;
+}, "C:/Users/Kehan/Documents/GitHub/wrapitmoving-vercel/src/pages/faq/faq.astro", void 0);
+
+const $$file = "C:/Users/Kehan/Documents/GitHub/wrapitmoving-vercel/src/pages/faq/faq.astro";
+const $$url = "/faq/faq";
+
+const _page = /*#__PURE__*/Object.freeze(/*#__PURE__*/Object.defineProperty({
+  __proto__: null,
+  default: $$Faq,
+  file: $$file,
+  url: $$url
+}, Symbol.toStringTag, { value: 'Module' }));
+
+const page = () => _page;
+
+export { page };

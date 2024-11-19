@@ -1,0 +1,93 @@
+/* empty css                                 */
+import { a as createComponent, r as renderTemplate, m as maybeRenderHead, b as renderComponent } from '../chunks/astro/server_Br1wbYCy.mjs';
+import 'kleur/colors';
+import { $ as $$BaseLayout } from '../chunks/BaseLayout_C3wLbWyD.mjs';
+import { $ as $$Navigation, a as $$Footer } from '../chunks/Footer_BfcYL_pV.mjs';
+import 'clsx';
+export { renderers } from '../renderers.mjs';
+
+const $$Pricing$1 = createComponent(($$result, $$props, $$slots) => {
+  return renderTemplate`${maybeRenderHead()}<section aria-labelledby="faq-title" id="faq"> <div class="mx-auto w-full lg:px-24 max-w-7xl md:px-12 items-center px-8 py-24 scroll-mt-12"> <div> <div class="max-w-2xl"> <p class="text-black font-extrabold lg:text-5xl text-4xl tracking-tight">
+Pricing
+</p> </div> <div class="mt-12 space-y-12 divide-y-2"> <div class="grid grid-cols-1 gap-4 pt-4 lg:grid-cols-3 lg:pt-12"> <div class="flex flex-col flex-shrink-0 mb-6 lg:pr-12 md:mb-0"> <span class="text-lg font-semibold leading-6 text-black font-display tracking-tight">
+Additional Mover
+</span> </div> <div class="lg:col-span-2"> <p class="text-gray-500 text-sm">
+We start at $99 per hour for one mover. Add $40 per hour for every additional mover.
+</p> </div> </div> <div class="grid grid-cols-1 gap-4 pt-4 lg:grid-cols-3 lg:pt-12"> <div class="flex flex-col flex-shrink-0 mb-6 lg:pr-12 md:mb-0"> <span class="text-lg font-semibold leading-6 text-black font-display tracking-tight">
+How Do We Charge
+</span> </div> <div class="lg:col-span-2"> <p class="text-gray-500 text-sm">
+We start the clock when our team of movers arrives at your pick-up
+              address, or at the appointed time. We stop the clock when the job
+              is done.
+</p> </div> </div> <div class="grid grid-cols-1 gap-4 pt-4 lg:grid-cols-3 lg:pt-12"> <div class="flex flex-col flex-shrink-0 mb-6 lg:pr-12 md:mb-0"> <span class="text-lg font-semibold leading-6 text-black font-display tracking-tight">
+Travel Time
+</span> </div> <section class="space-y-4 lg:col-span-2" id="travel-zone-map"> <p class="text-gray-500 text-sm">
+Travel time is driving time from our company location to the
+              pick-up address, and from the drop-off address back to our
+              company. Please see our travel time zone map below for the rates.
+</p> <img src="/travelzone.png" alt="Travel Zone Map" class="w-full h-auto my-4 rounded-lg"> <p class="text-gray-500 text-sm"> <strong>Zone 1 (blue):</strong> 1 hour travel time for Vancouver, Burnaby,
+              Richmond, and Delta
+</p> <p class="text-gray-500 text-sm"> <strong>Zone 2 (green):</strong> 1.5 hour travel time for West Vancouver,
+              North Vancouver, Port Moody, Coquitlam, New Westminster, Port Coquitlam,
+              Pitt Meadows, Maple Ridge, South Westminster, Surrey, and Langley
+</p> <p class="text-gray-500 text-sm"> <strong>Zone 3 (orange):</strong> 2 hour travel time for Mission
+</p> <p class="text-gray-500 text-sm"> <strong>Zone 3 (orange):</strong> 2 hour travel time for Mission
+</p> <p class="text-gray-500 text-sm">
+Abbotsford
+              Call us at 236-867-8800 for more information if outside of these zones.
+</p> </section> </div> <div class="grid grid-cols-1 gap-4 pt-4 lg:grid-cols-3 lg:pt-12"> <div class="flex flex-col flex-shrink-0 mb-6 lg:pr-12 md:mb-0"> <span class="text-lg font-semibold leading-6 text-black font-display tracking-tight">
+Minimum Hours
+</span> </div> <div class="lg:col-span-2"> <p class="text-gray-500 text-sm">
+We have no minimum hour requirements.
+</p> </div> </div> <div class="grid grid-cols-1 gap-4 pt-4 lg:grid-cols-3 lg:pt-12"> <div class="flex flex-col flex-shrink-0 mb-6 lg:pr-12 md:mb-0"> <span class="text-lg font-semibold leading-6 text-black font-display tracking-tight">
+Type of Service
+</span> </div> <div class="lg:col-span-2"> <p class="text-gray-500 text-sm">
+Local relocations are charged on an hourly basis, plus travel
+              time. Most single item or furniture moves, delivery services, junk
+              removal, and long-distance relocations are charged at a flat rate.
+              Contact us for a personalized quote! We do not charge extra for
+              locations with stairs or long distances between parking and the
+              entrance of the building. However, please keep in mind that these
+              factors may add time to your move. Additional charges may apply
+              for very large or heavy objects such as pianos, sub-zero fridges,
+              or other obstacles that could make the moving process more
+              challenging. The more detailed information you provide us before
+              your moving date, the more accurate we can be in calculating the
+              right rate for you.
+</p> </div> </div> <div class="grid grid-cols-1 gap-4 pt-4 lg:grid-cols-3 lg:pt-12"> <div class="flex flex-col flex-shrink-0 mb-6 lg:pr-12 md:mb-0"> <span class="text-lg font-semibold leading-6 text-black font-display tracking-tight">
+Packing Related Costs
+</span> </div> <div class="lg:col-span-2"> <p class="text-gray-500 text-sm">
+To ensure your valuable items stay safe and clean during the move,
+              we will supply moving materials such as:
+</p> <p class="text-gray-500 text-sm font-bold">
+Moving blankets (FREE)
+</p> <p class="text-gray-500 text-sm font-bold">
+Shrink wrap (FREE but limited)
+</p> <p class="text-gray-500 text-sm font-bold">
+Tape (FREE but limited)
+</p> <p class="text-gray-500 text-sm font-bold">
+King size mattress cover ($25.00 each)
+</p> <p class="text-gray-500 text-sm font-bold">
+Queen size mattress cover ($20.00 each)
+</p> <p class="text-gray-500 text-sm font-bold">
+Moving boxes sold up on request.
+<a href="/contact" class="underline">Contact Us.</a> </p> </div> </div> </div> </div> </div> </section>`;
+}, "C:/Users/Kehan/Documents/GitHub/wrapitmoving-vercel/src/components/infopages/Pricing.astro", void 0);
+
+const $$Pricing = createComponent(($$result, $$props, $$slots) => {
+  return renderTemplate`${renderComponent($$result, "BaseLayout", $$BaseLayout, {}, { "default": ($$result2) => renderTemplate` ${renderComponent($$result2, "Navigation", $$Navigation, {})} ${renderComponent($$result2, "Pricing", $$Pricing$1, {})} ${renderComponent($$result2, "Footer", $$Footer, {})} ` })}`;
+}, "C:/Users/Kehan/Documents/GitHub/wrapitmoving-vercel/src/pages/pricing.astro", void 0);
+
+const $$file = "C:/Users/Kehan/Documents/GitHub/wrapitmoving-vercel/src/pages/pricing.astro";
+const $$url = "/pricing";
+
+const _page = /*#__PURE__*/Object.freeze(/*#__PURE__*/Object.defineProperty({
+  __proto__: null,
+  default: $$Pricing,
+  file: $$file,
+  url: $$url
+}, Symbol.toStringTag, { value: 'Module' }));
+
+const page = () => _page;
+
+export { page };

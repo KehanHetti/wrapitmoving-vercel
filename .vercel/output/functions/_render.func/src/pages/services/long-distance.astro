@@ -1,0 +1,57 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import Navigation from "../../components/global/Navigation.astro";
+import Footer from "../../components/global/Footer.astro";
+import Hero from "../../components/services/Hero.astro";
+import Content from "../../components/services/Content.astro"
+
+---
+
+<BaseLayout>
+  <Navigation />
+  
+  <Hero
+    tagline="Long Distance Service"
+    image={{
+      src: '/services/long-1.jpg',
+      alt: 'AstroWind Hero Image',
+    }}
+  >
+    <Fragment slot="title">
+      VANCOUVER’S PREMIER CHOICE FOR LONG DISTANCE MOVES
+    </Fragment>
+
+    <Fragment slot="subtitle">
+      <span class="hidden sm:inline">
+        Wrap-it Moving helps you with your long-distance move.
+      </span>
+    </Fragment>
+  </Hero>
+
+  <Content
+    title="Long-Distance Moving Has Never Been Easier"
+    subtitle="Moving across the province or to the next province?  The stress of a move can multiply when you move long-distance.  Let Wrap-it Moving make it easier for you!  From Vancouver to other cities within BC like Pemberton, Penticton or Kelowna, or Calgary or Edmonton in Alberta, our dedicated and experienced team can help you along the way.  Contact us now and let our friendly team answer your questions or give you a quote to start a safe and smooth move!"
+    isReversed
+    items={[
+      {
+        title: 'We strongly recommend you wrapping and protecting every item being moved extra securely, label fragile boxes and items, wrap fragile items such as dishes and cups individually, to make sure they, too, have a comfortable and safe journey to your new home. We offer wrapping services as well. Contact us today for more information '
+      },
+    ]}
+    image={{
+      src: '/services/long-2.jpg',
+      alt: 'Startup Image',
+    }}
+  >
+    <Fragment slot="content">
+      <h3 class="text-2xl font-bold tracking-tight dark:text-blue sm:text-3xl mb-2">
+        We Know it’s More Than Just a Move <br /><span class="text-xl">We take extra care to handle everything you’ll need to start a new life</span>
+      </h3>
+    </Fragment>
+
+    <Fragment slot="bg">
+      <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
+    </Fragment>
+  </Content>
+
+  <Footer/>
+</BaseLayout>

@@ -1,0 +1,77 @@
+/* empty css                                    */
+import { a as createComponent, r as renderTemplate, m as maybeRenderHead, b as renderComponent } from '../../chunks/astro/server_Br1wbYCy.mjs';
+import 'kleur/colors';
+import { $ as $$BaseLayout } from '../../chunks/BaseLayout_C3wLbWyD.mjs';
+import { $ as $$Navigation, a as $$Footer } from '../../chunks/Footer_BfcYL_pV.mjs';
+import 'clsx';
+export { renderers } from '../../renderers.mjs';
+
+const $$Tips = createComponent(($$result, $$props, $$slots) => {
+  return renderTemplate`${maybeRenderHead()}<section aria-labelledby="tips-title" id="tips"> <div class="mx-auto w-full lg:px-24 max-w-7xl md:px-12 items-center px-8 py-24 scroll-mt-12"> <div> <div class="max-w-2xl"> <p class="text-black font-extrabold lg:text-5xl text-4xl tracking-tight">
+Moving Tips
+</p> <p class="text-gray-500 lg:text-xl max-w-2xl mt-4 mx-auto text-base">
+Simple tips with a big impact.  These easy tips will help make your move smooth and easy!
+</p> </div> <div class="mt-12 space-y-12 divide-y-2"> <div class="grid grid-cols-1 gap-4 pt-4 lg:grid-cols-3 lg:pt-12"> <div class="flex flex-col flex-shrink-0 mb-6 lg:pr-12 md:mb-0"> <span class="text-lg font-semibold leading-6 text-black font-display tracking-tight">
+1. Get prepared
+</span> </div> <div class="lg:col-span-2"> <p class="text-gray-500 text-sm">
+Planning is everything.  You will have less to worry on the big day if you start planning early and get organized.
+</p> </div> </div> <div class="grid grid-cols-1 gap-4 pt-4 lg:grid-cols-3 lg:pt-12"> <div class="flex flex-col flex-shrink-0 mb-6 lg:pr-12 md:mb-0"> <span class="text-lg font-semibold leading-6 text-black font-display tracking-tight">
+2. Schedule utilities for your new place
+</span> </div> <div class="space-y-4 lg:col-span-2"> <p class="text-gray-500 text-sm">
+Once you have a finalized move-in date, contact all utility providers to service at or transfer service to your new place.  You don’t want to arrive at your new home, late or tired, only to find that you have no water, electricity or internet.
+</p> </div> </div> <div class="grid grid-cols-1 gap-4 pt-4 lg:grid-cols-3 lg:pt-12"> <div class="flex flex-col flex-shrink-0 mb-6 lg:pr-12 md:mb-0"> <span class="text-lg font-semibold leading-6 text-black font-display tracking-tight">
+3. Prioritize packing
+</span> </div> <div class="lg:col-span-2"> <p class="text-gray-500 text-sm">
+The core of a moving process lies in packing and it is essential to prioritize it accordingly.  Walk around your home to see what you have, take the time to decide, list out and organize what you will be taking with you and what you no longer need, what you will pack and what you want the movers to pack.
+</p> </div> </div> <div class="grid grid-cols-1 gap-4 pt-4 lg:grid-cols-3 lg:pt-12"> <div class="flex flex-col flex-shrink-0 mb-6 lg:pr-12 md:mb-0"> <span class="text-lg font-semibold leading-6 text-black font-display tracking-tight">
+4. Purge and declutter
+</span> </div> <div class="space-y-4 lg:col-span-2"> <p class="text-gray-500 text-sm">
+Throwing or giving away, donating or selling items you no longer use or need will not only help reduce the amount you’ll need to pack, move and unpack, you will also be helping out your community, creating space in your new home, and may even help you make some money. Wrap-It Moving can also help you with junk removal or bringing items to donation centres.
+</p> </div> </div> <div class="grid grid-cols-1 gap-4 pt-4 lg:grid-cols-3 lg:pt-12"> <div class="flex flex-col flex-shrink-0 mb-6 lg:pr-12 md:mb-0"> <span class="text-lg font-semibold leading-6 text-black font-display tracking-tight">
+5. Label your boxes
+</span> </div> <div class="lg:col-span-2"> <p class="text-gray-500 text-sm">
+Labelling each box with what is inside and which room it goes will help you and the movers a great deal with unloading and unpacking.  Numbering your boxes and keeping an inventory list is also a good way to keep track of everything you have packed and will need to unpack.
+</p> </div> </div> <div class="grid grid-cols-1 gap-4 pt-4 lg:grid-cols-3 lg:pt-12"> <div class="flex flex-col flex-shrink-0 mb-6 lg:pr-12 md:mb-0"> <span class="text-lg font-semibold leading-6 text-black font-display tracking-tight">
+6.  Keep essentials handy
+</span> </div> <div class="lg:col-span-2"> <p class="text-gray-500 text-sm">
+Pack a box or bag with all essential items so you can find them easily.  Essential items can include first-night necessities, a first aid kit or supplies, and items you will need immediately after the move.  Your essential box or bag should be the last thing to be loaded onto the truck, or go with you in your personal vehicle.
+</p> </div> </div> <div class="grid grid-cols-1 gap-4 pt-4 lg:grid-cols-3 lg:pt-12"> <div class="flex flex-col flex-shrink-0 mb-6 lg:pr-12 md:mb-0"> <span class="text-lg font-semibold leading-6 text-black font-display tracking-tight">
+7: Safeguard your valuables
+</span> </div> <div class="lg:col-span-2"> <p class="text-gray-500 text-sm">
+Keep your most valuable items such as cash, passports, jewellery etc with you.  This way, both you and the movers don’t need to worry about keeping track of these small but important items.
+</p> </div> </div> <div class="grid grid-cols-1 gap-4 pt-4 lg:grid-cols-3 lg:pt-12"> <div class="flex flex-col flex-shrink-0 mb-6 lg:pr-12 md:mb-0"> <span class="text-lg font-semibold leading-6 text-black font-display tracking-tight">
+8. Arrange parking for moving truck
+</span> </div> <div class="lg:col-span-2"> <p class="text-gray-500 text-sm">
+Having a driveway will always make a move much easier, but if you don’t have one, organize parking closest to the entrance of your pick-up and drop-off locations if possible. Check to see if you could get a temporary parking permit from the city. 
+            Here is the link for the City of
+<a href="https://vancouver.ca/streets-transportation/reserve-metered-spaces.aspx" class="text-blue-500 underline hover:text-blue-700" target="_blank" rel="noopener noreferrer">
+Vancouver.
+</a> Please check online for other municipalities.
+</p> </div> </div> <div class="grid grid-cols-1 gap-4 pt-4 lg:grid-cols-3 lg:pt-12"> <div class="flex flex-col flex-shrink-0 mb-6 lg:pr-12 md:mb-0"> <span class="text-lg font-semibold leading-6 text-black font-display tracking-tight">
+9. Reserve elevator
+</span> </div> <div class="lg:col-span-2"> <p class="text-gray-500 text-sm">
+If you live in a condo or apartment, check with your building manager or concierge about booking an elevator or service elevator if there is one.  This way, the elevator will only be used by you and the movers during the booking period, making the move much shorter since the elevator won’t be shared with other residents in the building.
+</p> </div> </div> <div class="grid grid-cols-1 gap-4 pt-4 lg:grid-cols-3 lg:pt-12"> <div class="flex flex-col flex-shrink-0 mb-6 lg:pr-12 md:mb-0"> <span class="text-lg font-semibold leading-6 text-black font-display tracking-tight">
+10. Post-move essential
+</span> </div> <div class="lg:col-span-2"> <p class="text-gray-500 text-sm">
+Make sure you are leaving your old home clean and in order for the landlord or new occupants.  Vacuum, sweep or mop up all surfaces.   Make sure all holes from things like picture frames, mirrors or shelves on the wall are patched up and painted over.
+</p> </div> </div> </div> </div> </div> </section>`;
+}, "C:/Users/Kehan/Documents/GitHub/wrapitmoving-vercel/src/components/infopages/Tips.astro", void 0);
+
+const $$Moving = createComponent(($$result, $$props, $$slots) => {
+  return renderTemplate`${renderComponent($$result, "BaseLayout", $$BaseLayout, {}, { "default": ($$result2) => renderTemplate` ${renderComponent($$result2, "Navigation", $$Navigation, {})} ${renderComponent($$result2, "Tips", $$Tips, {})} ${renderComponent($$result2, "Footer", $$Footer, {})} ` })}`;
+}, "C:/Users/Kehan/Documents/GitHub/wrapitmoving-vercel/src/pages/faq/moving.astro", void 0);
+
+const $$file = "C:/Users/Kehan/Documents/GitHub/wrapitmoving-vercel/src/pages/faq/moving.astro";
+const $$url = "/faq/moving";
+
+const _page = /*#__PURE__*/Object.freeze(/*#__PURE__*/Object.defineProperty({
+  __proto__: null,
+  default: $$Moving,
+  file: $$file,
+  url: $$url
+}, Symbol.toStringTag, { value: 'Module' }));
+
+const page = () => _page;
+
+export { page };
